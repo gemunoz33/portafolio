@@ -32,10 +32,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Project cards click to open project detail page
 const projectCards = document.querySelectorAll('.project-card');
 const projectUrls = [
-    '/proyectos/la-pipa.html',
-    '/proyectos/zoni-international.html',
-    '/proyectos/karfel-living.html',
-    '/proyectos/centro-medico-belen.html'
+    './proyectos/la-pipa.html',
+    './proyectos/zoni-international.html',
+    './proyectos/karfel-living.html',
+    './proyectos/centro-medico-belen.html'
 ];
 
 projectCards.forEach((card, index) => {
