@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoni International - Genaro Muñoz</title>
+    <meta name="description" content="Sistema de gestión de reclutamiento docente internacional con arquitectura monolítica y soporte para múltiples regiones.">
+    <meta name="keywords" content="Zoni International, HR Tech, Recrutamiento Docente, Arquitectura Monolítica, ERP">
+    <meta name="author" content="Genaro Muñoz Obregón">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://genaromunoz.dev/zoni-international.html">
+    <meta property="og:title" content="Zoni International - Caso de Éxito">
+    <meta property="og:description" content="Sistema de gestión de reclutamiento docente internacional con arquitectura monolítica y soporte para múltiples regiones.">
+    <meta property="og:image" content="https://genaromunoz.dev/img/zoniInternational.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://genaromunoz.dev/zoni-international.html">
+    <meta property="twitter:title" content="Zoni International - Caso de Éxito">
+    <meta property="twitter:description" content="Sistema de gestión de reclutamiento docente internacional con arquitectura monolítica y soporte para múltiples regiones.">
+    <meta property="twitter:image" content="https://genaromunoz.dev/img/zoniInternational.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://genaromunoz.dev/zoni-international.html">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "name": "Zoni International",
+          "description": "Sistema de gestión de reclutamiento docente internacional con arquitectura monolítica y soporte para múltiples regiones.",
+          "author": {
+            "@type": "Person",
+            "name": "Genaro Muñoz Obregón"
+          },
+          "keywords": "Zoni International, HR Tech, Recrutamiento Docente, Arquitectura Monolítica, ERP",
+          "url": "https://genaromunoz.dev/zoni-international.html"
+        }
+      </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Sora:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo mono">GMO</a>
+            <a href="/#portafolio" class="back-link">← Volver al portafolio</a>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-meta">
+                    
+                    <span class="tag">Arquitectura Monolítica</span>
+                    <span class="tag">HR Tech</span>
+                    <span class="tag">Integración ERP</span>
+                </div>
+                
+                <h1>Zoni International</h1>
+                
+                <p class="project-subtitle">
+                    Sistema de gestión de reclutamiento docente internacional con arquitectura monolítica y soporte para múltiples regiones.
+                </p>
+            </div>
+            
+            <div class="project-hero-image">
+                <img src="../img/zoniInternational.png" alt="Zoni international HR Tech">
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenge Section -->
+    <section class="project-section">
+        <div class="container">
+            <p class="section-title">// El Desafío</p>
+            <div class="content-grid">
+                <div class="content-block">
+                    <h3></h3>
+                    
+                    <p>
+                        El reto principal consistió en diseñar y centralizar un ecosistema de reclutamiento docente para una organización con presencia internacional. El cliente necesitaba eliminar la fragmentación de datos y estandarizar el proceso de selección. Se desarrolló una plataforma que automatiza desde el registro inicial del candidato y la evaluación de competencias lingüísticas mediante pruebas de nivel, hasta la gestión de entrevistas virtuales y la sincronización final con el ERP corporativo.
+                    </p>
+                </div>
+                <div class="content-block">
+                    <h3>Requerimientos Clave</h3>
+                    
+                    <ul>
+                        <li>Sistema de registro multiregional con soporte horario automático.</li>
+                        <li>Módulo de video-presentación para evaluación de habilidades comunicativas.</li>
+                        <li>Pruebas de nivel de inglés integradas para filtrado de candidatos.</li>
+                        <li>Integración nativa con Zoom para agendamiento y creación de entrevistas.</li>
+                        <li>Componente API para sincronización bidireccional con el ERP de la empresa.</li>
+                        <li>Panel administrativo centralizado para el equipo de HR y coordinadores.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="project-section">
+        <div class="container">
+            <p class="section-title">// La Solución</p>
+            <div class="content-block">
+                <h3>Arquitectura & Enfoque Técnico</h3>
+                <p>
+                    Se implementó una arquitectura <strong>monolítica</strong> utilizando <strong>Laravel</strong> como motor principal y <strong>Vue.js 2</strong> para las capas de interacción reactiva. Este enfoque permitió un desarrollo ágil y una gestión de estado coherente para procesos complejos como el agendamiento de citas.
+                </p>
+                <ul>
+                    <li><strong>Flujo de Postulación:</strong> Los candidatos cargan su perfil y un video "Demo" que los reclutadores pueden calificar directamente en la plataforma.</li>
+                    <li><strong>Automatización de Entrevistas:</strong> Mediante la API de Zoom, el sistema genera automáticamente las salas de reunión y gestiona los enlaces de acceso tanto para el docente como para el entrevistador.</li>
+                    <li><strong>Conectividad ERP:</strong> Aunque la base es monolítica, desarrollé un componente de servicios API específico que permite que los datos de los candidatos seleccionados se integren sin fricción en el sistema de gestión de recursos humanos de la compañía.</li>
+                    <li><strong>Evaluación Académica:</strong> Motor de tests integrado para determinar el nivel de inglés del aplicante de forma inmediata tras el registro.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="project-section">
+        <div class="container">
+            <p class="section-title">// Stack Tecnológico</p>
+            <div class="tech-stack-grid">
+                <div class="tech-category">
+                    <h4>▸ Core</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">Laravel (Monolito)</span>
+                        <span class="tech-item">Vue.js 2.x</span>
+                        <span class="tech-item">PHP 8.x</span>
+                        <span class="tech-item">MySQL</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4>▸ Integraciones</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">Zoom API</span>
+                        <span class="tech-item">ERP Custom Bridge</span>
+                        <span class="tech-item">Video Upload Engine</span>
+                        <span class="tech-item">English Test Engine</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4>▸ Frontend</h4>
+                    <div class="tech-items">
+                        <span class="tech-item">Sass / CSS3</span>
+                        <span class="tech-item">Axios (API Integrations)</span>
+                        <span class="tech-item">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section
+    <section class="project-section">
+        <div class="container">
+            <p class="section-title">// Galería</p>
+            <div class="gallery-grid">
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="Dashboard">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Analytics">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80" alt="Mobile View">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="project-section">
+        <div class="container">
+            <p class="section-title">// Resultados & Impacto</p>
+            <div class="metrics-grid">
+                
+                <div class="metric-card">
+                    <div class="metric-value">1000+</div>
+                    <div class="metric-label">Candidatos registrados</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">800+</div>
+                    <div class="metric-label">Entrevistas realizadas</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">100</div>
+                    <div class="metric-label">Docentes contratados</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Necesitas un proyecto similar?</h2>
+            <p style="color: var(--color-text-secondary); max-width: 600px; margin: 0 auto;">
+                Si buscas desarrollar una plataforma escalable, 
+                conversemos sobre tu proyecto.
+            </p>
+            <div class="cta-buttons">
+               
+                <a href="https://zoni.international" target="_blank" class="btn btn-primary">Ver sitio en vivo</a>
+                <a href="/#contacto" class="btn btn-secondary">Conversemos de tu proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="mono">© 2026 Genaro Muñoz Obregón • Ingeniero de Sistemas</p>
+        </div>
+    </footer>
+</body>
+</html>
